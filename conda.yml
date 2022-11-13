@@ -1,0 +1,23 @@
+name: toybot
+channels:
+  - conda-forge
+dependencies:
+  - bzip2=1.0.8=h0d85af4_4
+  - ca-certificates=2022.9.24=h033912b_0
+  - coverage=6.5.0=py310h90acd4f_1
+  - libffi=3.4.2=h0d85af4_5
+  - libsqlite=3.39.4=ha978bb4_0
+  - libzlib=1.2.13=hfd90126_4
+  - ncurses=6.3=h96cf925_1
+  - openssl=3.0.7=hfd90126_0
+  - pip=22.3.1=pyhd8ed1ab_0
+  - python=3.10.6=hc14f532_0_cpython
+  - python_abi=3.10=2_cp310
+  - readline=8.1.2=h3899abd_0
+  - setuptools=65.5.1=pyhd8ed1ab_0
+  - tk=8.6.12=h5dbffcc_0
+  - tomli=2.0.1=pyhd8ed1ab_0
+  - tzdata=2022f=h191b570_0
+  - wheel=0.38.3=pyhd8ed1ab_0
+  - xz=5.2.6=h775f41a_0
+prefix: /usr/local/Caskroom/miniforge/base/envs/toybot
