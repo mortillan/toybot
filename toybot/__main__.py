@@ -1,15 +1,9 @@
 from toybot.simulator import Simulator
 from toybot.toy_robot import ToyRobot
-from toybot.direction import str_to_direction
-from toybot.game import Game
 
 def main():
-  is_first_command = True
-
   toy_robot = ToyRobot()
   simulator = Simulator(toy_robot=toy_robot)
-
-  g = Game(simulator=simulator)
 
   print("""
   ***********************************************************************************************************************************************************************************
